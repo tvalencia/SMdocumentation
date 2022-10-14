@@ -1,1 +1,1 @@
-# SMdocumentation
+# SpaceMath documentation
