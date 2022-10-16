@@ -12,57 +12,16 @@ InstallSpaceMath[]
 {% endcode %}
 {% endtab %}
 
-{% tab title="Untitled" %}
+{% tab title="Manual installation" %}
 1. Download SpaceMath v1.0 from
 
 {% embed url="https://github.com/spacemathapp/spacemath/archive/refs/heads/stable.zip" %}
+
+2\.  Unzip the zip file and copy the SpaceMath directory from `$SpaceMath-stable/SpaceMath/` to the Applications directory inside `$UserBaseDirectory`.
 {% endtab %}
 {% endtabs %}
 
-### Automatic Installation
+To delete Spacemath package automatically, the user only has to execute the following instruction:
 
-Run the following instructions in a Notebook of Mathematica
+`DeleteSpaceMath[]`
 
-`Import["https://raw.githubusercontent.com/spacemathapp/spacemath/stable/SpaceMath/Install.m"]`
-
-InstallSpaceMath\[]
-
-```
-// Some code
-```
-
-### Manual installation
-
-```
-// Some code
-```
-
-{% swagger method="get" path="" baseUrl="" summary="" %}
-{% swagger-description %}
-
-{% endswagger-description %}
-{% endswagger %}
-
-<details>
-
-<summary></summary>
-
-
-
-</details>
-
-
-
-{% tabs %}
-{% tab title="First Tab" %}
-
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
-
-{% tab title="Untitled" %}
-
-{% endtab %}
-{% endtabs %}
