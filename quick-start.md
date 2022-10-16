@@ -16,7 +16,7 @@ The best way to interact with our API is to use one of our official libraries:
 
 {% tabs %}
 {% tab title="Node" %}
-```
+```nb
 # Install via NPM
 npm install --save my-api
 ```
