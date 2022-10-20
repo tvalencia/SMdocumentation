@@ -21,11 +21,22 @@
 | mCH               | Charged scalar mass.                                                                                                                                                                                             |
 | xi, i=1, 2, 3, 4. | Random values parameters to be generated.                                                                                                                                                                        |
 
-| Commands to generate {R}\_X graphs                                           |
-| ---------------------------------------------------------------------------- |
-| RVone\[ghtt\_,ghbb\_,ghVV\_,x\_,xmin\_,xmax\_,xlabel\_]\[\[i]]               |
-| This command graphs $$\mathcal{R}_{V}$$ (V = W, Z) as a function of x.       |
-| RGAMone\[ghtt\_,ghbb\_,ghWW\_,gCH\_,mCH\_,x\_,xmin\_,xmax\_,xlabel\_]\[\[i]] |
-| This command graphs $$\mathcal{R}_{\gamma}$$ as a function of x.             |
-| RTAUone\[ghtt\_, ghbb\_, ghtautau\_, x\_, xmin\_, xmax\_, xlabel\_]\[\[i]]   |
-|                                                                              |
+| Commands to generate {R}\_X graphs                                                                                                                                                                         |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| RVone\[ghtt\_,ghbb\_,ghVV\_,x\_,xmin\_,xmax\_,xlabel\_]\[\[i]]                                                                                                                                             |
+| This command graphs $$\mathcal{R}_{V}$$ (V = W, Z) as a function of x.                                                                                                                                     |
+| RGAMone\[ghtt\_,ghbb\_,ghWW\_,gCH\_,mCH\_,x\_,xmin\_,xmax\_,xlabel\_]\[\[i]]                                                                                                                               |
+| This command graphs $$\mathcal{R}_{\gamma}$$ as a function of x.                                                                                                                                           |
+| RTAUone\[ghtt\_, ghbb\_, ghtautau\_, x\_, xmin\_, xmax\_, xlabel\_]\[\[i]]                                                                                                                                 |
+| This command graphs $$\mathcal{R}_{\tau}$$ as a function of x.                                                                                                                                             |
+| RBOTone\[ghtt\_, ghbb\_, x\_, xmin\_, xmax\_, xlabel\_]\[\[i]]                                                                                                                                             |
+| This command graphs $$\mathcal{R}_{b}$$ as a function of x.                                                                                                                                                |
+| RV\[ghtt\_, ghbb\_, ghVV\_, x\_, y\_, xmin\_, xmax\_, ymin\_, ymax\_, xlabel\_, ylabel\_, xfor\_, yfor\_, xformin\_, xformax\_, xforstep\_, yformin\_, yformax\_, yforstep\_, PP\_]\[\[i]]                 |
+| This command graphs $$\mathcal{R}_{V}$$ (V = W, Z) as a function of the parameters to be constrained: x, y, xfor, yfor.                                                                                    |
+| RGam\[ghtt\_, ghbb\_, ghWW\_, gCH\_, mCH\_, x\_, y\_, xmin\_, xmax\_, ymin\_, ymax\_, xlabel\_, ylabel\_, xfor\_, yfor\_, xformin\_, xformax\_, xforstep\_, yformin\_, yformax\_, yforstep\_, PP\_]\[\[i]] |
+| This command graphs $$\mathcal{R}_{\gamma}$$ as a function of the parameters to be constrained: x, y, xfor, yfor.                                                                                          |
+| Rtau\[ghtt\_, ghbb\_, ghtautau\_, x\_, y\_, xmin\_, xmax\_, ymin\_, ymax\_, xlabel\_, ylabel\_, xfor\_, yfor\_, xformin\_, xformax\_, xforstep\_, yformin\_, yformax\_, yforstep\_, PP\_] \[\[i]]          |
+| This command graphs $$\mathcal{R}_{\tau}$$ as a function of the parameters to be constrained: x, y, xfor, yfor.                                                                                            |
+| Rb\[ghtt\_, ghbb\_, x\_, y\_, xmin\_, xmax\_, ymin\_, ymax\_, xlabel\_, ylabel\_, xfor\_, yfor\_, xformin\_, xformax\_, xforstep\_, yformin\_, yformax\_, yforstep\_, PP\_]\[\[i]]                         |
+| This command graphs $$\mathcal{R}_{b}$$ as a function of the parameters to be constrained: x, y, xfor, yfor.                                                                                               |
+|                                                                                                                                                                                                            |
