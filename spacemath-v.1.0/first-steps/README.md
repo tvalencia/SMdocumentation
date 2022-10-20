@@ -21,3 +21,11 @@
 | mCH               | Charged scalar mass.                                                                                                                                                                                             |
 | xi, i=1, 2, 3, 4. | Random values parameters to be generated.                                                                                                                                                                        |
 
+| Commands to generate {R}\_X graphs                                           |
+| ---------------------------------------------------------------------------- |
+| RVone\[ghtt\_,ghbb\_,ghVV\_,x\_,xmin\_,xmax\_,xlabel\_]\[\[i]]               |
+| This command graphs $$\mathcal{R}_{V}$$ (V = W, Z) as a function of x.       |
+| RGAMone\[ghtt\_,ghbb\_,ghWW\_,gCH\_,mCH\_,x\_,xmin\_,xmax\_,xlabel\_]\[\[i]] |
+| This command graphs $$\mathcal{R}_{\gamma}$$ as a function of x.             |
+| RTAUone\[ghtt\_, ghbb\_, ghtautau\_, x\_, xmin\_, xmax\_, xlabel\_]\[\[i]]   |
+|                                                                              |
