@@ -60,3 +60,24 @@
 | This command generates random values that satisfy the experimental constraint on $$\mathcal{R}_{b}$$.                                                   |
 | PlotRbRandom\[ci\_, cj\_, xlabel\_, ylabel\_ ]\[\[i]]                                                                                                   |
 | This command graphs the plane ci-cj once RbRandom was executed.                                                                                         |
+
+
+
+| Commands for generate tables of \mathcal{R}\_X's.                                                                                                                                        |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| TableRVone\[ghtt\_, ghbb\_, ghVV\_, x\_, xmin\_, xmax\_, xstep\_ ]                                                                                                                       |
+| This command generates a table with two columns: RVone-x. The output file will be saved as TableRVone\_1sigma.txt and TableRVone\_2sigma.txt in $UserDocumentsDirectory. Here V = W, Z.  |
+| TableRGAMone\[ghtt\_, ghbb\_, ghWW\_, gCH\_, mCH\_, x\_, xmin\_, xmax\_, xstep\_ ]                                                                                                       |
+| This command generates a table with two columns: RGAMone-x. The output file will be saved as TableRGAMone\_1sigma.txt and TableRGAMone\_2sigma.txt in $UserDocumentsDirectory.           |
+| TableRTAUone\[ghtt\_, ghbb\_, ghtautau\_, x\_, xmin\_, xmax\_, xstep\_ ]                                                                                                                 |
+| This command generates a table with two columns: RTAUone-x. The output file will be saved as TableRTAUone\_1sigma.txt and TableRTAUone\_2sigma.txt in $UserDocumentsDirectory.           |
+| TableRBOTone\[ghtt\_, ghbb\_, x\_, xmin\_, xmax\_, xstep\_ ]                                                                                                                             |
+| This command generates a table with two columns: RBOTone-x. The output file will be saved as TableRBOTone\_1sigma.txt and TableRBOTone\_2sigma.txt in $UserDocumentsDirectory.           |
+| TableRV\[ghtt\_, ghbb\_, ghVV\_, x\_, xmin\_, xmax\_, xstep\_, y\_, ymin\_, ymax\_, ystep\_ ]                                                                                            |
+| This command generates a table with three entries arranged as {RV, x, y}, The output file will be saved as TableRV\_1sigma.txt and TableRV\_2sigma.txt in $UserDocumentsDirectory.       |
+| TableRGam\[ghtt\_, ghbb\_, ghWW\_, gCH\_, mCH\_, x\_, xmin\_, xmax\_, xstep\_, y\_, ymin\_, ymax\_, ystep\_ ]                                                                            |
+| This command generates a table with three entries arranged as {RGam, x, y}, The output file will be saved as TableRgam\_1sigma.txt and TableRgam\_2sigma.txt in $UserDocumentsDirectory. |
+|                                                                                                                                                                                          |
+|                                                                                                                                                                                          |
+|                                                                                                                                                                                          |
+|                                                                                                                                                                                          |
