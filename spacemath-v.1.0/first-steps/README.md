@@ -39,4 +39,24 @@
 | This command graphs $$\mathcal{R}_{\tau}$$ as a function of the parameters to be constrained: x, y, xfor, yfor.                                                                                            |
 | Rb\[ghtt\_, ghbb\_, x\_, y\_, xmin\_, xmax\_, ymin\_, ymax\_, xlabel\_, ylabel\_, xfor\_, yfor\_, xformin\_, xformax\_, xforstep\_, yformin\_, yformax\_, yforstep\_, PP\_]\[\[i]]                         |
 | This command graphs $$\mathcal{R}_{b}$$ as a function of the parameters to be constrained: x, y, xfor, yfor.                                                                                               |
-|                                                                                                                                                                                                            |
+
+
+
+| Commands to generate random values for \mathcal{R}\_X.                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| RVRandom\[ghtt\_, ghbb\_, ghVV\_, x1\_, x1min\_, x1max\_, x2\_, x2min\_, x2max\_, x3\_, x3min\_, x3max\_, x4\_, x4min\_, x4max\_, NN\_ ]                |
+| This command generates random values that satisfy the experimental constraint on $$\mathcal{R}_{V}$$.                                                   |
+| PlotRVRandom\[ci\_, cj\_, xlabel\_, ylabel\_ ]\[\[i]]                                                                                                   |
+| This command graphs the plane ci-cj once RVRandom was executed.                                                                                         |
+| RgamRandom\[ghtt\_, ghbb\_, ghWW\_, gCH\_, mCH\_, x1\_, x1min\_, x1max\_, x2\_, x2min\_, x2max\_, x3\_, x3min\_, x3max\_, x4\_, x4min\_, x4max\_, NN\_] |
+| This command generates random values that satisfy the experimental constraint on $$\mathcal{R}_{\gamma}$$.                                              |
+| PlotRgamRandom\[ci\_, cj\_, xlabel\_, ylabel\_ ]\[\[i]]                                                                                                 |
+| This command graphs the plane ci-cj once RgamRandom was executed.                                                                                       |
+| RtauRandom\[ghtt\_, ghbb\_, ghtautau\_, x1\_, x1min\_, x1max\_, x2\_, x2min\_, x2max\_, x3\_, x3min\_, x3max\_, x4\_, x4min\_, x4max\_, NN\_]           |
+| This command generates random values that satisfy the experimental constraint on $$\mathcal{R}_{\tau}$$.                                                |
+| PlotRtauRandom\[ci\_, cj\_, xlabel\_, ylabel\_ ]\[\[i]]                                                                                                 |
+| This command graphs the plane ci-cj once RtauRandom was executed.                                                                                       |
+| RbRandom\[ghtt\_, ghbb\_, x1\_, x1min\_, x1max\_, x2\_, x2min\_, x2max\_, x3\_, x3min\_, x3max\_, x4\_, x4min\_, x4max\_, NN\_ ]                        |
+| This command generates random values that satisfy the experimental constraint on $$\mathcal{R}_{b}$$.                                                   |
+| PlotRbRandom\[ci\_, cj\_, xlabel\_, ylabel\_ ]\[\[i]]                                                                                                   |
+| This command graphs the plane ci-cj once RbRandom was executed.                                                                                         |
