@@ -77,7 +77,8 @@
 | This command generates a table with three entries arranged as {RV, x, y}, The output file will be saved as TableRV\_1sigma.txt and TableRV\_2sigma.txt in $UserDocumentsDirectory.       |
 | TableRGam\[ghtt\_, ghbb\_, ghWW\_, gCH\_, mCH\_, x\_, xmin\_, xmax\_, xstep\_, y\_, ymin\_, ymax\_, ystep\_ ]                                                                            |
 | This command generates a table with three entries arranged as {RGam, x, y}, The output file will be saved as TableRgam\_1sigma.txt and TableRgam\_2sigma.txt in $UserDocumentsDirectory. |
-|                                                                                                                                                                                          |
-|                                                                                                                                                                                          |
-|                                                                                                                                                                                          |
-|                                                                                                                                                                                          |
+| TableRb\[ghtt\_, ghbb\_, x\_, xmin\_, xmax\_, xstep\_, y\_, ymin\_, ymax\_, ystep\_]                                                                                                     |
+| This command generates a table with three entries arranged as {RV, x, y}, The output file will be saved as TableRb\_1sigma.txt and TableRb\_2sigma.txt in $UserDocumentsDirectory.       |
+| TableRtau\[ghtt\_, ghbb\_, ghtautau\_, x\_, xmin\_, xmax\_, xstep\_, y\_, ymin\_, ymax\_, ystep\_]                                                                                       |
+| This command generates a table with three entries arranged as {Rtau, x, y}, The output file will be saved as TableRtau\_1sigma.txt and TableRtau\_2sigma.txt in $UserDocumentsDirectory. |
+
