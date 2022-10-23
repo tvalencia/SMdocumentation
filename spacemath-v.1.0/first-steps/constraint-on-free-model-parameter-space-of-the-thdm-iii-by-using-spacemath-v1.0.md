@@ -27,6 +27,10 @@ $$
 \end{array}\right),\,a=1,\,2
 $$
 
-where $\upsilon\_1$ and $\upsilon\_2$ satisfy $\upsilon\_1^2 + \upsilon\_2^2 = \upsilon^2$ for $\upsilon=246$ GeV.
+where $$\upsilon_1$$ and $$\upsilon_2$$ satisfy $$\upsilon_1^2 + \upsilon_2^2 = \upsilon^2$$ for $$\upsilon=246$$ GeV.
 
 In the most general case both doublets can participate in the interactions with the fermion fields. The Yukawa Lagrangian is written as
+
+$$
+f(x) = x * e^{2 pi i \xi x}
+$$
