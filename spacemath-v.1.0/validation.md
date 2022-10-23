@@ -45,8 +45,11 @@ Chi2Rx68[ghtt[-ArcCos[Cab] + ArcTan[tb], tb],ghbb[-ArcCos[Cab] + ArcTan[tb], tb]
 
 Complete instructions can be found at:  $$ $\texttt{SpaceMath/Examples/Validation_RX/SPACEMATH_RX-Validation-THDM-Chi2Rx.nb} $$
 
-|   |   |   |
-| - | - | - |
-|   |   |   |
-|   |   |   |
-|   |   |   |
+| Coupling              | THDM-I                   | THDM-II                   | THDM-Lepton Specific      | THDM-Flipped              |
+| --------------------- | ------------------------ | ------------------------- | ------------------------- | ------------------------- |
+| $$hVV$$               | $$\sin(\beta-\alpha)$$   | $$\sin(\beta-\alpha)$$    | $$\sin(\beta-\alpha)$$    | $$\sin(\beta-\alpha)$$    |
+| $$hu_{i}u_{i}$$       | $$\cos\alpha/\sin\beta$$ | $$\cos\alpha/\sin\beta$$  | $$\cos\alpha/\sin\beta$$  | $$\cos\alpha/\sin\beta$$  |
+| $$hd_{i}d_{i}$$       | $$\cos\alpha/\sin\beta$$ | $$-\sin\alpha/\cos\beta$$ | $$\cos\alpha/\sin\beta$$  | $$-\sin\alpha/\cos\beta$$ |
+| $$h\ell_{i}\ell_{i}$$ | $$\cos\alpha/\sin\beta$$ | $$-\sin\alpha/\cos\beta$$ | $$-\sin\alpha/\cos\beta$$ | $$\cos\alpha/\sin\beta$$  |
+
+<figure><img src="../.gitbook/assets/Figure7.png" alt=""><figcaption><p>Plane <span class="math">\cos(\beta-\alpha)-\tan\beta</span> for different versions of THDM's: (a) Type I, (b) Type II, (c) Lepton Specific, (d) Flipped. The plots were generated in <span class="math">\texttt{SpaceMath v1.0}</span>.</p></figcaption></figure>
