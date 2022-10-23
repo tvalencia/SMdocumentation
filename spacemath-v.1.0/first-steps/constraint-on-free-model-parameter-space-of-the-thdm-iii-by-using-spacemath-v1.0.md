@@ -32,5 +32,39 @@ where $$\upsilon_1$$ and $$\upsilon_2$$ satisfy $$\upsilon_1^2 + \upsilon_2^2 = 
 In the most general case both doublets can participate in the interactions with the fermion fields. The Yukawa Lagrangian is written as
 
 $$
-f(x) = x * e^{2 pi i \xi x}
+\mathcal{L}_{Y}=Y_{1}^{u}\bar{Q}_{L}^{'}\tilde{\Phi}_{1}u_{R}^{'}+Y_{2}^{u}\bar{Q}_{L}^{'}\tilde{\Phi}_{2}u_{R}^{'}+Y_{1}^{d}\bar{Q}_{L}^{'}\Phi_{1}d_{R}^{'}
 $$
+
+$$
++Y_{2}^{d}\bar{Q}_{L}^{'}\Phi_{2}d_{R}^{'}+Y_{1}^{\ell}\bar{L}_{L}^{'}\Phi_{1}\ell_{R}^{'}+Y_{2}^{\ell}\bar{L}_{L}^{'}\Phi_{2}\ell_{R}^{'}+H.c.,
+$$
+
+Because we are interested in neutral interactions we only present the neutral part of the Yukawa Lagrangian of Eq. \eqref{Yukawa} which reads: \cite{Arroyo:2013tna}
+
+$$
+\mathcal{L}_{Y}^{N}=Y_{1}^{u}\bar{Q}_{L}^{0}\tilde{\Phi}_{1}u_{R}^{0}+Y_{2}^{u}\bar{Q}_{L}^{0}\tilde{\Phi}_{2}u_{R}^{0}+Y_{1}^{d}\bar{Q}_{L}^{0}\Phi_{1}d_{R}^{0}
+$$
+
+$$
++Y_{2}^{d}\bar{Q}_{L}^{0}\Phi_{2}d_{R}^{0}+Y_{1}^{\ell}\bar{L}_{L}^{0}\Phi_{1}\ell_{R}^{0}+Y_{2}^{\ell}\bar{L}_{L}^{0}\Phi_{2}\ell_{R}^{0}+h.c.
+$$
+
+with
+
+$$
+Q_{L}^{0}=\left(\begin{array}{c}
+u_{L}\\
+d_{L}
+\end{array}\right),\;L^{0}=\left(\begin{array}{c}
+\nu_{L}\\
+e_{L}
+\end{array}\right),\Phi_{1}=\left(\begin{array}{c}
+\phi_{1}^{+}\\
+\phi_{1}^{0}
+\end{array}\right),\;\Phi_{2}=\left(\begin{array}{c}
+\phi_{2}^{+}\\
+\phi_{2}^{0}
+\end{array}\right),\tilde{\Phi}_{j}=i\sigma_{2}\Phi_{j}^{*}.
+$$
+
+Here $$\Phi_i$$ $$(i=1, 2)$$ denotes the Higgs doublets and $$Y_i^f$$ stand for $$3\times3$$ Yukawa matrices. After SSB and algebraic manipulations, the Yukawa Lagrangian in term of physical states is given as follows:
