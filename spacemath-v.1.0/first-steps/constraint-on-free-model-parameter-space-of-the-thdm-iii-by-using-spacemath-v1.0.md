@@ -18,4 +18,15 @@ $$
 +\left(\frac{1}{2}\lambda_{5}(\Phi_{1}^{\dagger}\Phi_{2})^{2}+\left(\lambda_{6}(\Phi_{1}^{\dagger}\Phi_{1})+\lambda_{7}(\Phi_{2}^{\dagger}\Phi_{2})\right)(\Phi_{1}^{\dagger}\Phi_{2})+H.c.\right),
 $$
 
-where $\mu\_{1,,2}$, $\lambda\_{1,,2,,3,,4}$ are real parameters while $\mu\_{12}$, $\lambda\_{5,,6,,7}$ can be complex in general. The doublets are written as $\Phi\_{a}^T=\left( \phi\_{a}^{+}, \phi\_{a}^0\right)$ for $a=1,2$. After the Spontaneous Symmetry Breaking (SSB) the two Higgs doublets acquire non-zero expectation values. The Vacuum Expectation Values (VEV) are selected as
+where $$\mu_{1, 2}$$, $$\lambda_{1, 2, 3 ,4}$$ are real parameters while $$\mu_{12}$$, $$\lambda_{5, 6, 7}$$ can be complex in general. The doublets are written as $$\Phi_{a}^T=\left( \phi_{a}^{+}, \phi_{a}^0\right)$$ for $$a=1, 2$$. After the Spontaneous Symmetry Breaking (SSB) the two Higgs doublets acquire non-zero expectation values. The Vacuum Expectation Values (VEV) are selected as
+
+$$
+\langle\Phi_{a}\rangle=\frac{1}{\sqrt{2}}\left(\begin{array}{c}
+0\\
+\upsilon_{a}
+\end{array}\right),\,a=1,\,2
+$$
+
+where $\upsilon\_1$ and $\upsilon\_2$ satisfy $\upsilon\_1^2 + \upsilon\_2^2 = \upsilon^2$ for $\upsilon=246$ GeV.
+
+In the most general case both doublets can participate in the interactions with the fermion fields. The Yukawa Lagrangian is written as
