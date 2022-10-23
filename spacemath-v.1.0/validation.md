@@ -13,3 +13,5 @@ Notice that $$\texttt{Sa} \equiv \sin(\alpha)$$, $$\texttt{Tb}\equiv\tan(\beta)$
 * $$\texttt{ContourPlot[kb[\texttt{ghbb[Sa,Tb,Cos[ArcTan[Tb]]}]]\textasciicircum2,\{Sa,-1,1\},\{Tb,0,20\}]},$$
 * $$\texttt{ContourPlot[kV[ghVV[Tb,Cos[ArcTan[Tb]],Sin[ArcTan[Tb]],Sa]]\textasciicircum2,\{Sa,-1,1\},\{Tb,0,20\}]},$$
 
+which generate the graphs displayed in Figs. \ref{fig:widthbb1}, \ref{fig:widthbb2} and \ref{fig:widthVV}. The codes that generate these graphs can be found in the $$\texttt{"Examples"}$$ directory, whose path is: $$ $\texttt{SpaceMath/Examples/Validation_RX/SPACEMATH_RX-Validation-THDM.nb} $$ or click on the link $$\texttt{"Examples"}$$ once $$\texttt{SpaceMath}$$ was loaded.
+

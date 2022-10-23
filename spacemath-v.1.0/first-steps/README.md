@@ -1,5 +1,8 @@
 # First steps
 
+In order to introduce new users quickly and concisely, we display a collection of the basic SpaceMath v1.0 commands for the Signal Strenghts with their application to the Two-Higgs-Doublet Model Type-III (THDM-III). There are common arguments in all \texttt{SpaceMath v1.0} commands; for this reason, let us first list them in Table \ref{Commands}. While in Tables \ref{CommandsPLOTS},\
+\ref{RandomGeneration}, \ref{TablesGeneration}, \ref{All\&Intersection}, we display the main commands to generate plots and tables with allowed regions by the most up-to-date experimental results.
+
 | Argument          | Description                                                                                                                                                                                                      |
 | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ghtt              | Coupling of the Higgs boson to a top quark pair.                                                                                                                                                                 |
