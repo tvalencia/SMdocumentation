@@ -12,7 +12,7 @@ $$\texttt{ghtt}=\frac{g}{2}\frac{m_t}{m_W}\left[\frac{\cos\alpha}{\sin\beta}\del
 
 $$\texttt{ghbb}=  						\frac{g}{2}\frac{m_{b}}{m_W}\left[-\frac{\sin\alpha}{\cos\beta}\delta_{ij}-\frac{\sqrt{2}\cos(\alpha-\beta)}{g\cos\beta}\left(\frac{m_{W}}{m_{b}}\right)\left(\tilde{Y}_{2}^{D}\right)_{bb}\right]$$
 
-.
+$$\texttt{gh}{\tau\tau}=  						\frac{g}{2}\frac{m_{{\tau}}}{m_W}\left[-\frac{\sin\alpha}{\cos\beta}\delta_{ij}-\frac{\sqrt{2}\cos(\alpha-\beta)}{g\cos\beta}\left(\frac{m_{W}}{m_{{\tau}}}\right)\left(\tilde{Y}_{2}^{\ell}\right)_{{\tau\tau}}\right]$$
 {% endtab %}
 
 {% tab title="Input to SpaceMath v1.0" %}
