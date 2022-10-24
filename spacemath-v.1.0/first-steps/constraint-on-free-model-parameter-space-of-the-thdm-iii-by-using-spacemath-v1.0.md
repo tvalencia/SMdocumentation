@@ -1,6 +1,6 @@
 # Constraint on free model parameter space of the THDM-III by using SpaceMath v1.0
 
-We now turn to constrain the free model parameter space of the THDM-III focusing on the Yukawa interactions. As previously we mentioned, in SpaceMath v1.0 only the Higgs boson data are enabled. Then, we use signal strengths to find allowed regions which are in accordance with the most up-to-date experimental reports. We give, step by step, instructions on how SpaceMath v1.0 works. For enthusiastic users go to the Sec. \ref{impacientes}.
+We now turn to constrain the free model parameter space of the THDM-III focusing on the Yukawa interactions. As previously we mentioned, in SpaceMath v1.0 only the Higgs boson data are enabled. Then, we use signal strengths to find allowed regions which are in accordance with the most up-to-date experimental reports. We give, step by step, instructions on how SpaceMath v1.0 works. For enthusiastic users go to the Sec. **THDM-III in** $$\texttt{SpaceMath v1.0}$$.
 
 We first present an overview of the THDM-III focusing only on the details relevant of the Yukawa Lagrangian. For a detailed account of this model and the study of its phenomenology we refer the readers to Refs. \cite{Branco:2011iw, Botella:2009pq, Botella:2015hoa, Arroyo:2013tna, Cruz:2019vuo, HernandezSanchez:2012eg, BarradasGuevara:2010xs, Arroyo-Urena:2015uoa, GomezBock:2005hc, HernandezSanchez:2010zz, Arroyo-Urena:2019qhl, Arroyo-Urena:2020mgg}.
 
@@ -68,3 +68,74 @@ e_{L}
 $$
 
 Here $$\Phi_i$$ $$(i=1, 2)$$ denotes the Higgs doublets and $$Y_i^f$$ stand for $$3\times3$$ Yukawa matrices. After SSB and algebraic manipulations, the Yukawa Lagrangian in term of physical states is given as follows:
+
+$$
+\mathcal{L}_{Y}=\frac{g}{2}\left(\frac{m_{d}}{m_{W}}\right)\bar{d}_{i}\left[\frac{\cos\alpha}{\cos\beta}\delta_{ij}+\frac{\sqrt{2}\sin(\alpha-\beta)}{g\cos\beta}\left(\frac{m_{W}}{m_{d}}\right)\left(\tilde{Y}_{2}^{d}\right)_{ij}\right]d_{j}H
+$$
+
+$$
++\frac{g}{2}\left(\frac{m_{d}}{m_{W}}\right)\bar{d}_{i}\left[-\frac{\sin\alpha}{\cos\beta}\delta_{ij}+\frac{\sqrt{2}\cos(\alpha-\beta)}{g\cos\beta}\left(\frac{m_{W}}{m_{d}}\right)\left(\tilde{Y}_{2}^{d}\right)_{ij}\right]d_{j}h
+$$
+
+$$
++i\frac{g}{2}\left(\frac{m_{d}}{m_{W}}\right)\bar{d}_{i}\left[-\tan\beta\delta_{ij}+\frac{\sqrt{2}}{g\cos\beta}\left(\frac{m_{W}}{m_{d}}\right)\left(\tilde{Y}_{2}^{d}\right)_{ij}\right]\gamma^{5}d_{j}A
+$$
+
+$$
++\frac{g}{2}\left(\frac{m_{u}}{m_{W}}\right)\bar{u}_{i}\left[\frac{\sin\alpha}{\sin\beta}\delta_{ij}-\frac{\sqrt{2}\sin(\alpha-\beta)}{g\sin\beta}\left(\frac{m_{W}}{m_{u}}\right)\left(\tilde{Y}_{2}^{u}\right)_{ij}\right]u_{j}H
+$$
+
+$$
++\frac{g}{2}\left(\frac{m_{u}}{m_{W}}\right)\bar{u}_{i}\left[\frac{\cos\alpha}{\sin\beta}\delta_{ij}-\frac{\sqrt{2}\cos(\alpha-\beta)}{g\sin\beta}\left(\frac{m_{W}}{m_{u}}\right)\left(\tilde{Y}_{2}^{u}\right)_{ij}\right]u_{j}h
+$$
+
+$$
++i\frac{g}{2}\left(\frac{m_{u}}{m_{W}}\right)\bar{u}_{i}\left[-\cot\beta\delta_{ij}+\frac{\sqrt{2}}{g\sin\beta}\left(\frac{m_{W}}{m_{u}}\right)\left(\tilde{Y}_{2}^{u}\right)_{ij}\right]\gamma^{5}u_{j}A,
+$$
+
+where $$i$$ and $$j$$ stand for the fermion flavors, with $$i\neq j$$, in general. As far as the lepton interactions, it is similar to type-down quarks part with the exchange $$d\to\ell$$ and $$m_d\to m_{\ell}$$. The physical particles $$h, H, A$$ were obtained through a rotation depending on mixing angles $$\alpha$$ and $$\beta$$ as follows:
+
+$$
+\left(\begin{array}{c}
+H\\
+h
+\end{array}\right)=\left(\begin{array}{cc}
+\cos\alpha & \sin\alpha\\
+-\sin\alpha & \cos\alpha
+\end{array}\right)\left(\begin{array}{c}
+Re\Phi_{1}\\
+Re\Phi_{2}
+\end{array}\right),
+$$
+
+$$
+\left(\begin{array}{c}
+G\\
+A
+\end{array}\right)=\left(\begin{array}{cc}
+\cos\beta & \sin\beta\\
+-\sin\beta & \cos\beta
+\end{array}\right)\left(\begin{array}{c}
+Im\Phi_{1}\\
+Im\Phi_{2}
+\end{array}\right),
+$$
+
+$$
+\left(\begin{array}{c}
+G^{\pm}\\
+H^{\pm}
+\end{array}\right)=\left(\begin{array}{cc}
+\cos\beta & \sin\beta\\
+-\sin\beta & \cos\beta
+\end{array}\right)\left(\begin{array}{c}
+\Phi_{1}^{\pm}\\
+\Phi_{2}^{\pm}
+\end{array}\right),
+$$
+
+with the angle $$\beta$$ given by:
+
+$$
+\tan\beta=\frac{v_2}{v_1}.
+$$
