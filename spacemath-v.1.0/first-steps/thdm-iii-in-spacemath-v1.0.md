@@ -4,7 +4,7 @@ We will show how $$\texttt{SpaceMath v1.0}$$ works for the particular case of $$
 
 1. Open a $$\texttt{Mathematica}$$ notebook,
 2. Load $$\texttt{SpaceMath v1.0}$$ through $$\texttt{<<SpaceMath`}$$,
-3. Define couplings as a function of the free model parameters. For the THDM-III case they are given in Table \ref{AcoplamientosTHDMIII}.
+3. Define couplings as a function of the free model parameters. For the THDM-III case they are given in Table [#coupling-from-yukawa-lagrangian](thdm-iii-in-spacemath-v1.0.md#coupling-from-yukawa-lagrangian "mention").
 
 {% tabs %}
 {% tab title="Coupling from Yukawa Lagrangian" %}
