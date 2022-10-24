@@ -24,4 +24,4 @@ $$
 
 We consider tree-level Higgs boson couplings to different particles, i.e., $$g_{hZZ^*}$$_,_ $$g_{hWW^*}$$, $$g_{h\tau^-\tau^+}$$, $$g_{h\mu^-\mu^+}$$, $$g_{hb\bar{b}}$$, as well as effective coupling modifiers $$g_{hgg}$$ and $$g_{h\gamma\gamma}$$ which describe gluon fusion production $$\texttt{ggh}$$ and the $$h\to\gamma\gamma$$ decay, respectively.
 
-The organization of our work is as follows. In Sec. SeccionII we present, in a concise way, how SpaceMath v1.0 can be installed. Sec. SeccionIII is devoted to show as SpaceMath v1.0 works, giving a detailed example. Sec. SeccionIV is focused on the validation of SpaceMath v1.0 by reproducing several results shown in the literature. Finally, conclusion and perspectives are presented in Sec. SeccionV.
+The organization of our work is as follows. In Sec. **Installation** we present, in a concise way, how SpaceMath v1.0 can be installed. Sec. **First steps** is devoted to show as SpaceMath v1.0 works, giving a detailed example. Sec. **Validation** is focused on the validation of SpaceMath v1.0 by reproducing several results shown in the literature.&#x20;
