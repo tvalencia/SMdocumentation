@@ -2,9 +2,9 @@
 
 We now turn to constrain the free model parameter space of the THDM-III focusing on the Yukawa interactions. As previously we mentioned, in SpaceMath v1.0 only the Higgs boson data are enabled. Then, we use signal strengths to find allowed regions which are in accordance with the most up-to-date experimental reports. We give, step by step, instructions on how SpaceMath v1.0 works. For enthusiastic users go to the Sec. **THDM-III in** $$\texttt{SpaceMath v1.0}$$.
 
-We first present an overview of the THDM-III focusing only on the details relevant of the Yukawa Lagrangian. For a detailed account of this model and the study of its phenomenology we refer the readers to Refs. \cite{Branco:2011iw, Botella:2009pq, Botella:2015hoa, Arroyo:2013tna, Cruz:2019vuo, HernandezSanchez:2012eg, BarradasGuevara:2010xs, Arroyo-Urena:2015uoa, GomezBock:2005hc, HernandezSanchez:2010zz, Arroyo-Urena:2019qhl, Arroyo-Urena:2020mgg}.
+We first present an overview of the THDM-III focusing only on the details relevant of the Yukawa Lagrangian. For a detailed account of this model and the study of its phenomenology we refer the readers to Refs. \[[28](../references.md)-[39](../references.md)].
 
-The most general $$SU(2)_L\times U(1)_Y$$ invariant scalar potential is given by \cite{Gunion:2002zf, Morettietal}:
+The most general $$SU(2)_L\times U(1)_Y$$ invariant scalar potential is given by \[[40](../references.md), [41](../references.md)]:
 
 $$
 V(\Phi_{1},\Phi_{2})=\mu_{1}^{2}(\Phi_{1}^{\dagger}\Phi_{1})+\mu_{2}^{2}(\Phi_{2}^{\dagger}\Phi_{2})-\left(\mu_{12}^{2}(\Phi_{1}^{\dagger}\Phi_{2})+H.c.\right)+\frac{1}{2}\lambda_{1}(\Phi_{1}^{\dagger}\Phi_{1})^{2}
@@ -39,7 +39,7 @@ $$
 +Y_{2}^{d}\bar{Q}_{L}^{'}\Phi_{2}d_{R}^{'}+Y_{1}^{\ell}\bar{L}_{L}^{'}\Phi_{1}\ell_{R}^{'}+Y_{2}^{\ell}\bar{L}_{L}^{'}\Phi_{2}\ell_{R}^{'}+H.c.,
 $$
 
-Because we are interested in neutral interactions we only present the neutral part of the Yukawa Lagrangian of Eq. \eqref{Yukawa} which reads: \cite{Arroyo:2013tna}
+Because we are interested in neutral interactions we only present the neutral part of the Yukawa Lagrangian of Eq. 6 which reads \[[31](../references.md)]:
 
 $$
 \mathcal{L}_{Y}^{N}=Y_{1}^{u}\bar{Q}_{L}^{0}\tilde{\Phi}_{1}u_{R}^{0}+Y_{2}^{u}\bar{Q}_{L}^{0}\tilde{\Phi}_{2}u_{R}^{0}+Y_{1}^{d}\bar{Q}_{L}^{0}\Phi_{1}d_{R}^{0}
