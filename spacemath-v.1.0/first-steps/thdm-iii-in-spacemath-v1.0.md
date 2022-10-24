@@ -23,6 +23,10 @@ ghtt[a_,Att_,Cab_,tb_]:=(g/2)(mt/mW)((Cos[a]/tb*Cos[ArcTan[tb]])-(Sqrt[2]*Cab/(g
 ```wolfram
 ghbb[a_,Abb_,Cab_,tb_]:=(g/2)(mb/mW)((-Sin[a]*tb/Sin[ArcTan[tb]])+(Sqrt[2]*(Cab*tb)/(g*Sin[ArcTan[tb]])*(mW/mb)*(mb/vev*Abb)))
 ```
+
+```wolfram
+ghtautau[a_,Atata_,Cab_,tb_]:=(g/2)(mtau/mW)((-Sin[a]*tb/Sin[ArcTan[tb]])+(Sqrt[2]*(Cab*tb)/(g*Sin[ArcTan[tb]])*(mW/mtau)*(mtau/vev*Atata)))	
+```
 {% endtab %}
 {% endtabs %}
 
