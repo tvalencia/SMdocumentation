@@ -10,21 +10,19 @@ We will show how $$\texttt{SpaceMath v1.0}$$ works for the particular case of $$
 {% tab title="Coupling from Yukawa Lagrangian" %}
 $$\texttt{ghtt}=\frac{g}{2}\frac{m_t}{m_W}\left[\frac{\cos\alpha}{\sin\beta}\delta_{ij}-\frac{\sqrt{2}\cos(\alpha-\beta)}{g\sin\beta}\left(\frac{m_{W}}{m_{t}}\right)\left(\tilde{Y}_{2}^{U}\right)_{tt}\right]$$
 
+$$\texttt{ghbb}=  						\frac{g}{2}\frac{m_{b}}{m_W}\left[-\frac{\sin\alpha}{\cos\beta}\delta_{ij}-\frac{\sqrt{2}\cos(\alpha-\beta)}{g\cos\beta}\left(\frac{m_{W}}{m_{b}}\right)\left(\tilde{Y}_{2}^{D}\right)_{bb}\right]$$
 
+.
 {% endtab %}
 
 {% tab title="Input to SpaceMath v1.0" %}
 ```wolfram
-ghtt[a_,Att_,Cab_,tb_]:=(g/2)(mt/mW)}((Cos[a]/tb*Cos[ArcTan[tb]])-(Sqrt[2]*Cab/(g*tb*Cos[ArcTan[tb]])*(mW/mt)*(mt/vev*Att)))	
+ghtt[a_,Att_,Cab_,tb_]:=(g/2)(mt/mW)((Cos[a]/tb*Cos[ArcTan[tb]])-(Sqrt[2]*Cab/(g*tb*Cos[ArcTan[tb]])*(mW/mt)*(mt/vev*Att)))	
 ```
 
-
+```wolfram
+ghbb[a_,Abb_,Cab_,tb_]:=(g/2)(mb/mW)((-Sin[a]*tb/Sin[ArcTan[tb]])+(Sqrt[2]*(Cab*tb)/(g*Sin[ArcTan[tb]])*(mW/mb)*(mb/vev*Abb)))
+```
 {% endtab %}
 {% endtabs %}
-
-| Coupling from Yukawa Lagrangian                                                                                                                                                                                   | Input to SpaceMath v1.0                               |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
-| $$\texttt{ghtt}=\frac{g}{2}\frac{m_t}{m_W}\left[\frac{\cos\alpha}{\sin\beta}\delta_{ij}-\frac{\sqrt{2}\cos(\alpha-\beta)}{g\sin\beta}\left(\frac{m_{W}}{m_{t}}\right)\left(\tilde{Y}_{2}^{U}\right)_{tt}\right]$$ |                                                       |
-|                                                                                                                                                                                                                   | $$\texttt{ghtt[a\_,Att\_,Cab\_,tb\_]:=(g/2)(mt/mW)}$$ |
-|                                                                                                                                                                                                                   |                                                       |
 
