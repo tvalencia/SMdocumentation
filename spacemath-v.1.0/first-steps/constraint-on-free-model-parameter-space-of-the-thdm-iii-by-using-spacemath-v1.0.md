@@ -68,3 +68,29 @@ e_{L}
 $$
 
 Here $$\Phi_i$$ $$(i=1, 2)$$ denotes the Higgs doublets and $$Y_i^f$$ stand for $$3\times3$$ Yukawa matrices. After SSB and algebraic manipulations, the Yukawa Lagrangian in term of physical states is given as follows:
+
+$$
+\mathcal{L}_{Y}=\frac{g}{2}\left(\frac{m_{d}}{m_{W}}\right)\bar{d}_{i}\left[\frac{\cos\alpha}{\cos\beta}\delta_{ij}+\frac{\sqrt{2}\sin(\alpha-\beta)}{g\cos\beta}\left(\frac{m_{W}}{m_{d}}\right)\left(\tilde{Y}_{2}^{d}\right)_{ij}\right]d_{j}H
+$$
+
+$$
++\frac{g}{2}\left(\frac{m_{d}}{m_{W}}\right)\bar{d}_{i}\left[-\frac{\sin\alpha}{\cos\beta}\delta_{ij}+\frac{\sqrt{2}\cos(\alpha-\beta)}{g\cos\beta}\left(\frac{m_{W}}{m_{d}}\right)\left(\tilde{Y}_{2}^{d}\right)_{ij}\right]d_{j}h
+$$
+
+$$
++i\frac{g}{2}\left(\frac{m_{d}}{m_{W}}\right)\bar{d}_{i}\left[-\tan\beta\delta_{ij}+\frac{\sqrt{2}}{g\cos\beta}\left(\frac{m_{W}}{m_{d}}\right)\left(\tilde{Y}_{2}^{d}\right)_{ij}\right]\gamma^{5}d_{j}A
+$$
+
+$$
++\frac{g}{2}\left(\frac{m_{u}}{m_{W}}\right)\bar{u}_{i}\left[\frac{\sin\alpha}{\sin\beta}\delta_{ij}-\frac{\sqrt{2}\sin(\alpha-\beta)}{g\sin\beta}\left(\frac{m_{W}}{m_{u}}\right)\left(\tilde{Y}_{2}^{u}\right)_{ij}\right]u_{j}H
+$$
+
+$$
++\frac{g}{2}\left(\frac{m_{u}}{m_{W}}\right)\bar{u}_{i}\left[\frac{\cos\alpha}{\sin\beta}\delta_{ij}-\frac{\sqrt{2}\cos(\alpha-\beta)}{g\sin\beta}\left(\frac{m_{W}}{m_{u}}\right)\left(\tilde{Y}_{2}^{u}\right)_{ij}\right]u_{j}h
+$$
+
+$$
++i\frac{g}{2}\left(\frac{m_{u}}{m_{W}}\right)\bar{u}_{i}\left[-\cot\beta\delta_{ij}+\frac{\sqrt{2}}{g\sin\beta}\left(\frac{m_{W}}{m_{u}}\right)\left(\tilde{Y}_{2}^{u}\right)_{ij}\right]\gamma^{5}u_{j}A,
+$$
+
+where $i$ and $j$ stand for the fermion flavors, with $i\neq j$, in general. As far as the lepton interactions, it is similar to type-down quarks part with the exchange $d\to\ell$ and $m\_d\to m\_{\ell}$. The physical particles $h,,H,,A$ were obtained through a rotation depending on mixing angles $\alpha$ and $\beta$ as follows:
