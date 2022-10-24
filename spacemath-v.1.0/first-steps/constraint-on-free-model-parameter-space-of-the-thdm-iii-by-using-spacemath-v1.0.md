@@ -93,4 +93,49 @@ $$
 +i\frac{g}{2}\left(\frac{m_{u}}{m_{W}}\right)\bar{u}_{i}\left[-\cot\beta\delta_{ij}+\frac{\sqrt{2}}{g\sin\beta}\left(\frac{m_{W}}{m_{u}}\right)\left(\tilde{Y}_{2}^{u}\right)_{ij}\right]\gamma^{5}u_{j}A,
 $$
 
-where $i$ and $j$ stand for the fermion flavors, with $i\neq j$, in general. As far as the lepton interactions, it is similar to type-down quarks part with the exchange $d\to\ell$ and $m\_d\to m\_{\ell}$. The physical particles $h,,H,,A$ were obtained through a rotation depending on mixing angles $\alpha$ and $\beta$ as follows:
+where $$i$$ and $$j$$ stand for the fermion flavors, with $$i\neq j$$, in general. As far as the lepton interactions, it is similar to type-down quarks part with the exchange $$d\to\ell$$ and $$m_d\to m_{\ell}$$. The physical particles $$h, H, A$$ were obtained through a rotation depending on mixing angles $$\alpha$$ and $$\beta$$ as follows:
+
+$$
+\left(\begin{array}{c}
+H\\
+h
+\end{array}\right)=\left(\begin{array}{cc}
+\cos\alpha & \sin\alpha\\
+-\sin\alpha & \cos\alpha
+\end{array}\right)\left(\begin{array}{c}
+Re\Phi_{1}\\
+Re\Phi_{2}
+\end{array}\right),
+$$
+
+$$
+\left(\begin{array}{c}
+G\\
+A
+\end{array}\right)=\left(\begin{array}{cc}
+\cos\beta & \sin\beta\\
+-\sin\beta & \cos\beta
+\end{array}\right)\left(\begin{array}{c}
+Im\Phi_{1}\\
+Im\Phi_{2}
+\end{array}\right),
+$$
+
+$$
+\left(\begin{array}{c}
+G^{\pm}\\
+H^{\pm}
+\end{array}\right)=\left(\begin{array}{cc}
+\cos\beta & \sin\beta\\
+-\sin\beta & \cos\beta
+\end{array}\right)\left(\begin{array}{c}
+\Phi_{1}^{\pm}\\
+\Phi_{2}^{\pm}
+\end{array}\right),
+$$
+
+with the angle $$\beta$$ given by:
+
+$$
+\tan\beta=\frac{v_2}{v_1}.
+$$
