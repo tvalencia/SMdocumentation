@@ -8,11 +8,17 @@ We will show how $$\texttt{SpaceMath v1.0}$$ works for the particular case of $$
 
 {% tabs %}
 {% tab title="Coupling from Yukawa Lagrangian" %}
+$$\texttt{ghtt}=\frac{g}{2}\frac{m_t}{m_W}\left[\frac{\cos\alpha}{\sin\beta}\delta_{ij}-\frac{\sqrt{2}\cos(\alpha-\beta)}{g\sin\beta}\left(\frac{m_{W}}{m_{t}}\right)\left(\tilde{Y}_{2}^{U}\right)_{tt}\right]$$
+
 
 {% endtab %}
 
 {% tab title="Input to SpaceMath v1.0" %}
-..c$$\texttt{ghtt}=\frac{g}{2}\frac{m_t}{m_W}\left[\frac{\cos\alpha}{\sin\beta}\delta_{ij}-\frac{\sqrt{2}\cos(\alpha-\beta)}{g\sin\beta}\left(\frac{m_{W}}{m_{t}}\right)\left(\tilde{Y}_{2}^{U}\right)_{tt}\right]$$
+```wolfram
+ghtt[a_,Att_,Cab_,tb_]:=(g/2)(mt/mW)}((Cos[a]/tb*Cos[ArcTan[tb]])-(Sqrt[2]*Cab/(g*tb*Cos[ArcTan[tb]])*(mW/mt)*(mt/vev*Att)))	
+```
+
+
 {% endtab %}
 {% endtabs %}
 
