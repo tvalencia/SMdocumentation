@@ -30,3 +30,12 @@ ghtautau[a_,Atata_,Cab_,tb_]:=(g/2)(mtau/mW)((-Sin[a]*tb/Sin[ArcTan[tb]])+(Sqrt[
 {% endtab %}
 {% endtabs %}
 
+We define $$\texttt{a}$$=$$\alpha$$, $$\texttt{Cab}$$=$$\cos(\alpha-\beta)$$, $$\texttt{sab}$$=$$\sin(\alpha-\beta)$$, $$\texttt{tb}$$=$$\tan\beta$$, $$\left(\tilde{Y}{2}^{F}\right){ij}=\sqrt{m_im_j}A_{ij}/\upsilon$$ and $$\sin\beta=\tan\beta\cos(\tan^{-1}(\tan\beta))$$. The terms $$\texttt{mf (f= fermions), mV (V=Z, W), g}$$ and $$\texttt{vev}$$ are the fermion masses, gauge boson masses, $$SU(2)$$ coupling constant and the vacuum expectation value, respectively. These quantities are loaded once $$\texttt{SpaceMath v1.0}$$ is executed. The file containing such information is $$\texttt{data.m}$$. From time to time the $$\texttt{data.m}$$ file is updated according to new information from the state of art, so that the user has available this new information simply to run the following instruction:
+
+{% tabs %}
+{% tab title="Data update " %}
+```mathematica
+UpdateSpaceMathData[]
+```
+{% endtab %}
+{% endtabs %}
