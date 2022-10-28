@@ -66,4 +66,18 @@ PP=100, [[i]]=[[2]](2σ of C.L.)
 {% endtab %}
 {% endtabs %}
 
-Once the instruction in Eq. 14 was executed, it can take several minutes depending on the resources of your computer equipment. If the message \$$$\texttt{Aborted}$$ appears, don't worry, be patient. On an upgraded computer, it will take a few seconds
+Once the instruction in Eq. 14 was executed, it can take several minutes depending on the resources of your computer equipment. If the message \$$$\texttt{Aborted}$$ appears, don't worry, be patient. On an upgraded computer, it will take a few seconds.
+
+Alternatively, $$\texttt{SpaceMath v1.0}$$ also is able to generate random values as shown in Table 4. The command to do it is the following:
+
+```mathematica
+RtauRandom[ghtt_, ghbb_,ghtautau_, x1_, x1min_, x1max_,x2_, x2min_, x2max_, x3_, x3min_, x3max_, x4_, x4min_, x4max_, NN_]
+```
+
+This command generates $$\texttt{NN}$$ random values and export it to \$$$\texttt{UserDocumentsDirectory}$$. To graph the generated random values use the following command:
+
+```mathematica
+PlotRtauRandom[ci_, cj_, xlabel_, ylabel_]
+```
+
+Here, $$\texttt{ci, cj}$$ represent the $$\texttt{i-th}$$ and $$\texttt{j-th}$$ columns to graph in the plane $$\texttt{ci-cj}$$.
