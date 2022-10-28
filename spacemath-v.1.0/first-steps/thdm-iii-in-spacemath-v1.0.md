@@ -39,3 +39,31 @@ UpdateSpaceMathData[]
 ```
 {% endtab %}
 {% endtabs %}
+
+4\. To generate a graph of the signal strenght $$\mathcal{R}_{\tau}$$ when it depends on more than one parameter you must execute the command $$\texttt{Rtau[...]}$$ which is described in Table 3, namely:
+
+{% tabs %}
+{% tab title="Rtau" %}
+```mathematica
+Rtau[ghtt[ArcCos[cab] + ArcTan[tb], Att, cab, tb],
+ghbb[ArcCos[cab] + ArcTan[tb], Abb, cab, tb],
+ghtautau[ArcCos[cab] + ArcTan[tb], 1, cab, tb],
+cab, tb, -1, 1, 1, 15, "cos(α − β)" , "tan β",
+Att, Abb, 0.9, 1, 0.05, 0.9, 1, 0.05, 100][[2]]
+```
+{% endtab %}
+
+{% tab title="Elements" %}
+```mathematica
+ghtt=ghtt[ArcCos[cab] + ArcTan[tb], Att, cab, tb],
+ghbb=ghbb[ArcCos[cab] + ArcTan[tb], Abb, cab, tb],
+ghtautau=ghtautau[ArcCos[cab] + ArcTan[tb], 1, cab, tb],
+x=cab, y=tb, xmin=-1, xmax=1, ymin=1, ymax=15,
+xlabel=cos(α − β), ylabel=tan β, xfor=Att, yfor=Abb,
+xformin=0.9, xformax=1, xforstep=0.05, yforstep=0.05,
+PP=100, [[i]]=[[2]](2σ of C.L.)
+```
+{% endtab %}
+{% endtabs %}
+
+Once the instruction in Eq. 14 was executed, it can take several minutes depending on the resources of your computer equipment. If the message \$$$\texttt{Aborted}$$ appears, don't worry, be patient. On an upgraded computer, it will take a few seconds
