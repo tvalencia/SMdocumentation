@@ -92,3 +92,6 @@ In order to introduce new users quickly and concisely, we display a collection o
 | This command graphs all signal strengths in a same plot as a function of x, y, xfor, yfor.                                                                                                                                                |
 | RXintersection\[ghtt\_, ghbb\_, ghZZ\_, ghWW\_, ghtautau\_, gCH\_, mCH\_, x\_, y\_, xmin\_, xmax\_, ymin\_, ymax\_, xlabel\_, ylabel\_, xfor\_, yfor\_, xformin\_, xformax\_, xforstep\_, yformin\_, yformax\_, yforstep\_, PP\_ ]\[\[i]] |
 | This command graphs the intersection of all signal strengths, if any.                                                                                                                                                                     |
+
+{% embed url="https://wolfram.com/xid/0v5uff33qdhdq-bmjevd" %}
+
