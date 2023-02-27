@@ -10,3 +10,7 @@
   * [Validation](spacemath-v.1.0/validation.md)
   * [References](spacemath-v.1.0/references.md)
 * [Contact us](contact-us.md)
+
+## Release 2. Previews
+
+* [Friendly mode](release-2.-previews/friendly-mode.md)
