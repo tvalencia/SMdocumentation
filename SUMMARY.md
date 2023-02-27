@@ -13,4 +13,6 @@
 
 ## Release 2. Previews
 
-* [Friendly mode](release-2.-previews/friendly-mode.md)
+* [Working mode](release-2.-previews/working-mode/README.md)
+  * [Friendly mode](release-2.-previews/working-mode/friendly-mode.md)
+  * [Expert mode](release-2.-previews/working-mode/expert-mode.md)
