@@ -1,6 +1,6 @@
 # Expert mode
 
-When choosing the expert mode, the following notebook are displayed:
+When choosing the expert mode, the following notebooks are displayed:
 
 <div>
 
